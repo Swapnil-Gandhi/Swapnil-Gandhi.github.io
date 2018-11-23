@@ -32,6 +32,7 @@
         "jquery": "3.3.1",
         "npm": "^6.4.1",
         "simple-line-icons": "^2.4.1"
+        "sshpk": ">=1.13.2"
     },
     "devDependencies": {
         "browser-sync": "^2.24.7",
