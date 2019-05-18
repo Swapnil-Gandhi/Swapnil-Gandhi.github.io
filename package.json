@@ -29,15 +29,15 @@
         "bootstrap": ">=4.3.1",
         "cryptiles": "^4.1.2",
         "devicons": "^1.8.0",
-        "jquery": ">=3.4.0",
-        "npm": "^6.4.1",
-        "simple-line-icons": "^2.4.1",
         "extend": ">=3.0.2",
-        "tar": ">=4.4.2",
-        "sshpk": ">=1.13.2"
+        "jquery": ">=3.4.0",
+        "npm": "^6.9.0",
+        "simple-line-icons": "^2.4.1",
+        "sshpk": ">=1.13.2",
+        "tar": ">=4.4.2"
     },
     "devDependencies": {
-        "browser-sync": "^2.24.7",
+        "browser-sync": "^2.26.5",
         "gulp": "^3.9.1",
         "gulp-clean-css": "3.9.4",
         "gulp-header": "2.0.5",
