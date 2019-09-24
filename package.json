@@ -34,7 +34,7 @@
         "npm": "^6.11.3",
         "simple-line-icons": "^2.4.1",
         "sshpk": ">=1.13.2",
-        "tar": ">=4.4.10"
+        "tar": ">=4.4.11"
     },
     "devDependencies": {
         "browser-sync": "^2.26.7",
