@@ -133,23 +133,26 @@
         <div class="subheading mb-5">M.Tech (Research) · IISc ·
           <a href="mailto: gandhis@iisc.ac.in">gandhis@iisc.ac.in</a>
         </div>
+
         <p class="lead mb-5">I am currently a Research Intern at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/" target="_blank">Microsoft Research India</a>, where I work with Bhargav Gulavani and Karthik Ramachandra on Scalar UDF Inlining in SQL Server.
           <br/><br/>In recent past, I was a master's student advised by Prof. Yogesh Simmhan at <a href="http://dream-lab.cds.iisc.ac.in" target="_blank">DREAMLab</a>, <a href="https://www.iisc.ac.in" target="_blank">Indian Institute of Science (IISc)</a> .
           At IISc, my research focused on distributed system software which leverage specialized abstraction and optimizations to accelerate the convergence time of temporal graph algorithms.</p>
 
-        <p class="subheading"><h3>Recent Publications</h3>
-          <p class="lead mb-5" style="text-indent: 1%;">
-            <a href="papers/icm.pdf" target="_blank"> An Interval-centric Model for Distributed Computing over Temporal Graphs.</a>
-            Swapnil Gandhi and Yogesh Simmhan. <i style="color : #bd5d38!important;">IEEE ICDE, 2020</i>.
-          </p>
+          <p class="subheading"><h3>Recent News</h3>
+            <p class="lead mb-5" style="text-indent: 0%;padding-top:10px">
+                · [April 2020] Video of my talk on <a href="papers/icm.pdf" target="_blank"> An Interval-centric Model for Distributed Computing over Temporal Graphs</a>
+                @ IEEE ICDE, 2020 is now <a href="https://youtu.be/NiQ4SVJyD7c" target="_blank">available</a>.
+
+              </br><iframe width="560" height="315" src="https://www.youtube.com/embed/NiQ4SVJyD7c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </p>
+        </p>
+
         <!-- Button
           <a class="btn js-scroll-trigger" href="#publications">
             <i class="fas fa-chevron-circle-right"></i> Show All Publications
           </a>
         </br></br>
         -->
-        </p>
-
 
         <div class="social-icons">
           <a href="https://twitter.com/swwapnil_gandhi">
@@ -187,17 +190,22 @@
               IEEE 36th International Conference on Data Engineering (ICDE) in Dalas, Texas 2020
 
             <br><br>
-            <i class="text-primary collapsible-paragraph" data-toggle="collapse" data-target="#icm_abstract">[Abstract]</i> &nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="papers/icm.pdf" target="_blank"><i class="fa fa-1x fa-file-pdf"></i> PDF</a> &nbsp;&nbsp;&nbsp;&nbsp;
-            <!-- Uncomment this to enable video and code for Graphite
-            <a href="" target="_blank"><i class="fa fa-1x fa-video"></i> Video</a> &nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://github.com/Swapnil-Gandhi/graphite" target="_blank"><i class="fa fa-1x fa-code-branch"></i> Code</a> -->
+            <!--<i class="text-primary collapsible-paragraph" data-toggle="collapse" data-target="#icm_abstract">[Abstract]</i> &nbsp;&nbsp;&nbsp;&nbsp; -->
 
-            <div id="icm_abstract" class="collapse">
-                <p class="lead mb-5">
-                   Algorithms for temporal property graphs may be time-dependent (TD), navigating the structure and time concurrently, or time-independent (TI), operating separately on different snapshots. Currently, there is no unified and scalable programming abstraction to design TI and TD algorithms over large temporal graphs. We propose an interval-centric computing model (ICM) for distributed and iterative processing of temporal graphs, where a vertex’s time-interval is a unit of data-parallel computation. It introduces a unique time-warp operator for temporal partitioning and grouping of messages that hides the complexity of designing temporal algorithms, while avoiding redundancy in user logic calls and messages sent. GRAPHITE is our implementation of ICM over Apache Giraph, and we use it to design 12 TI and TD algorithms from literature. We rigorously evaluate its performance for diverse real-world temporal graphs - as large as 131M vertices and 5.5B edges, and as long as 219 snapshots. Our comparison with 4 baseline platforms on a 10-node commodity cluster shows that ICM shares compute and messaging across intervals to out-perform them by up to 25x, and matches them even in worst-case scenarios. GRAPHITE also exhibits weak-scaling with near-perfect efficiency.
-               </p>
-            </div>
+            <a href="papers/icm.pdf" target="_blank"><i class="fa fa-1x fa-file-pdf"></i> PDF</a> &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <a href="https://youtu.be/NiQ4SVJyD7c" target="_blank"><i class="fa fa-1x fa-video"></i> Video</a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://speakerdeck.com/swapnilgandhi/an-interval-centric-model-for-distributed-computing-over-temporal-graphs" target="_blank"><i class="fas fa-1x fa-window-maximize"></i> Slides</a> &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <!-- Uncomment this to enable video and code for Graphite
+              <a href="https://github.com/Swapnil-Gandhi/graphite" target="_blank"><i class="fa fa-1x fa-code-branch"></i> Code</a>
+
+              <div id="icm_abstract" class="collapse">
+                  <p class="lead mb-5">
+                     Algorithms for temporal property graphs may be time-dependent (TD), navigating the structure and time concurrently, or time-independent (TI), operating separately on different snapshots. Currently, there is no unified and scalable programming abstraction to design TI and TD algorithms over large temporal graphs. We propose an interval-centric computing model (ICM) for distributed and iterative processing of temporal graphs, where a vertex’s time-interval is a unit of data-parallel computation. It introduces a unique time-warp operator for temporal partitioning and grouping of messages that hides the complexity of designing temporal algorithms, while avoiding redundancy in user logic calls and messages sent. GRAPHITE is our implementation of ICM over Apache Giraph, and we use it to design 12 TI and TD algorithms from literature. We rigorously evaluate its performance for diverse real-world temporal graphs - as large as 131M vertices and 5.5B edges, and as long as 219 snapshots. Our comparison with 4 baseline platforms on a 10-node commodity cluster shows that ICM shares compute and messaging across intervals to out-perform them by up to 25x, and matches them even in worst-case scenarios. GRAPHITE also exhibits weak-scaling with near-perfect efficiency.
+                 </p>
+              </div>
+            -->
 
           </p>
           </li>
@@ -261,7 +269,7 @@
             <p class="lead mb-5">
               Thesis : Mutation Testing Tool for C Programs
               <br> <br> Course-work Grade : First Class with Distinction (Highest Attainable Grade)
-              <br> Graduated with Department Honors
+              <br> Graduated with Department Honors <i class="fas fa-lg fa-award lead"> </i>
             </p>
           </div>
           <div class="resume-date text-md-right lead">
