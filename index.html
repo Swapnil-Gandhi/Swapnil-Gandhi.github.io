@@ -57,12 +57,23 @@
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
 
+  <!-- BibTex Header -->
   <style>
-  .collapsible-paragraph{
+  .collapsible-paragraph-header{
       font-style:normal;
       text-transform:capitalize;
       font-variant:small-caps;
       font-weight:lighter;
+  }
+  </style>
+
+  <!-- BibTex Entry -->
+  <style>
+  .collapsible-paragraph-text{
+    border-style: solid;
+    border-color: #DCDCDC;
+    padding: 20px 5px 20px 20px;
+    border-radius: 25px;
   }
   </style>
 
@@ -195,12 +206,14 @@
             <a href="papers/icm.pdf" target="_blank"><i class="fa fa-1x fa-file-pdf"></i> PDF</a> &nbsp;&nbsp;&nbsp;&nbsp;
 
             <a href="https://youtu.be/NiQ4SVJyD7c" target="_blank"><i class="fa fa-1x fa-video"></i> Video</a> &nbsp;&nbsp;&nbsp;&nbsp;
+
             <a href="https://speakerdeck.com/swapnilgandhi/an-interval-centric-model-for-distributed-computing-over-temporal-graphs" target="_blank"><i class="fas fa-1x fa-window-maximize"></i> Slides</a> &nbsp;&nbsp;&nbsp;&nbsp;
+
             <a href="https://ieeexplore.ieee.org/document/9101617/" target="_blank"><i class="ai ai-1x ai-doi"></i> IEEE Xplore</a> &nbsp;&nbsp;&nbsp;&nbsp;
 
-            <i class="text-primary collapsible-paragraph fa fa-quote-right" data-toggle="collapse" data-target="#icm_bibtex" aria-hidden="true">BibTeX</i>
-              <div id="icm_bibtex" class="collapse" style="border-style: solid;border-color: #DCDCDC;padding: 20px 5px 0px 20px;">
-                  <p class="lead mb-5">
+            <i class="text-primary collapsible-paragraph-header fa fa-quote-right" aria-hidden="true" data-toggle="collapse" data-target="#icm_bibtex">BibTeX</i>
+              <div id="icm_bibtex" class="collapse">
+                  <p class="lead mb-5 collapsible-paragraph-text">
                     @inproceedings{ICM, <br>
                       author={Gandhi, Swapnil and Simmhan, Yogesh}, <br>
                       booktitle={2020 IEEE 36th International Conference on Data Engineering (ICDE)}, <br>
@@ -228,10 +241,11 @@
               <br><br>
 
               <a href="thesis/IISc-SwapnilGandhi-2020.pdf" target="_blank"><i class="fa fa-1x fa-file-pdf"></i> PDF</a> &nbsp;&nbsp;&nbsp;&nbsp;
-              <i class="text-primary collapsible-paragraph fa fa-quote-right" data-toggle="collapse" data-target="#mastersthesis_bibtex" aria-hidden="true">BibTeX</i>
-                <div id="mastersthesis_bibtex" class="collapse" style="border-style: solid;border-color: #DCDCDC;padding: 20px 5px 0px 20px;">
-                    <p class="lead mb-5">
-                      @mastersthesis{gandhi2020distributed, <br>
+
+              <i class="text-primary collapsible-paragraph-header fa fa-quote-right" aria-hidden="true" data-toggle="collapse" data-target="#mastersthesis_bibtex">BibTeX</i>
+                <div id="mastersthesis_bibtex" class="collapse">
+                    <p class="lead mb-5 collapsible-paragraph-text">
+                      @mastersthesis{gandhi2020Thesis, <br>
                         title={Distributed Programming Abstraction for Scalable Processing of Temporal Graphs}, <br>
                         author={Gandhi, Swapnil}, <br>
                         year={2020}, <br>
