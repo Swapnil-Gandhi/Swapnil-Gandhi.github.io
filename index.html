@@ -190,24 +190,30 @@
               <u>Swapnil Gandhi</u> and Yogesh Simmhan <br>
               IEEE 36th International Conference on Data Engineering (ICDE) in Dalas, Texas 2020
             <br><br>
-            <!--<i class="text-primary collapsible-paragraph" data-toggle="collapse" data-target="#icm_abstract">[Abstract]</i> &nbsp;&nbsp;&nbsp;&nbsp; -->
+
 
             <a href="papers/icm.pdf" target="_blank"><i class="fa fa-1x fa-file-pdf"></i> PDF</a> &nbsp;&nbsp;&nbsp;&nbsp;
 
             <a href="https://youtu.be/NiQ4SVJyD7c" target="_blank"><i class="fa fa-1x fa-video"></i> Video</a> &nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://speakerdeck.com/swapnilgandhi/an-interval-centric-model-for-distributed-computing-over-temporal-graphs" target="_blank"><i class="fas fa-1x fa-window-maximize"></i> Slides</a> &nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://ieeexplore.ieee.org/document/9101617/" target="_blank"><i class="ai ai-1x ai-doi"></i> IEEE Xplore</a>
+            <a href="https://ieeexplore.ieee.org/document/9101617/" target="_blank"><i class="ai ai-1x ai-doi"></i> IEEE Xplore</a> &nbsp;&nbsp;&nbsp;&nbsp;
 
-            <!-- Uncomment this to enable code for Graphite
-              <a href="https://github.com/Swapnil-Gandhi/graphite" target="_blank"><i class="fa fa-1x fa-code-branch"></i> Code</a>
-
-              <div id="icm_abstract" class="collapse">
+            <i class="text-primary collapsible-paragraph fa fa-quote-right" data-toggle="collapse" data-target="#icm_bibtex" aria-hidden="true">BibTeX</i>
+              <div id="icm_bibtex" class="collapse" style="border-style: solid;border-color: #DCDCDC;padding: 20px 5px 0px 20px;">
                   <p class="lead mb-5">
-                     Algorithms for temporal property graphs may be time-dependent (TD), navigating the structure and time concurrently, or time-independent (TI), operating separately on different snapshots. Currently, there is no unified and scalable programming abstraction to design TI and TD algorithms over large temporal graphs. We propose an interval-centric computing model (ICM) for distributed and iterative processing of temporal graphs, where a vertex’s time-interval is a unit of data-parallel computation. It introduces a unique time-warp operator for temporal partitioning and grouping of messages that hides the complexity of designing temporal algorithms, while avoiding redundancy in user logic calls and messages sent. GRAPHITE is our implementation of ICM over Apache Giraph, and we use it to design 12 TI and TD algorithms from literature. We rigorously evaluate its performance for diverse real-world temporal graphs - as large as 131M vertices and 5.5B edges, and as long as 219 snapshots. Our comparison with 4 baseline platforms on a 10-node commodity cluster shows that ICM shares compute and messaging across intervals to out-perform them by up to 25x, and matches them even in worst-case scenarios. GRAPHITE also exhibits weak-scaling with near-perfect efficiency.
-                 </p>
+                    @inproceedings{ICM, <br>
+                      author={Gandhi, Swapnil and Simmhan, Yogesh}, <br>
+                      booktitle={2020 IEEE 36th International Conference on Data Engineering (ICDE)}, <br>
+                      title={An Interval-centric Model for Distributed Computing over Temporal Graphs}, <br>
+                      year={2020}, <br>
+                      pages={1129-1140}, <br>
+                      organization={IEEE}, }
+                  </p>
               </div>
-            -->
 
+              <!-- Uncomment this to enable code for Graphite
+                <a href="https://github.com/Swapnil-Gandhi/graphite" target="_blank"><i class="fa fa-1x fa-code-branch"></i> Code</a>
+              -->
           </p>
           </li>
         </ul>
@@ -216,10 +222,23 @@
         <ul class="fa-ul mb-0">
           <li>
             <p class="lead mb-4">
-              <br><b> Distributed Programming Abstraction for Scalable Processing of Temporal Graphs </b> <a href="thesis/IISc-SwapnilGandhi-2020.pdf" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>  <span style="float:right;">January 2020</span> <br>
+              <br><b> Distributed Programming Abstraction for Scalable Processing of Temporal Graphs </b>  <span style="float:right;">January 2020</span> <br>
               <u>Swapnil Gandhi</u> <br>
               M.Tech (Research) Thesis · Indian Institute of Science (IISc)
-          </p>
+              <br><br>
+
+              <a href="thesis/IISc-SwapnilGandhi-2020.pdf" target="_blank"><i class="fa fa-1x fa-file-pdf"></i> PDF</a> &nbsp;&nbsp;&nbsp;&nbsp;
+              <i class="text-primary collapsible-paragraph fa fa-quote-right" data-toggle="collapse" data-target="#mastersthesis_bibtex" aria-hidden="true">BibTeX</i>
+                <div id="mastersthesis_bibtex" class="collapse" style="border-style: solid;border-color: #DCDCDC;padding: 20px 5px 0px 20px;">
+                    <p class="lead mb-5">
+                      @mastersthesis{gandhi2020distributed, <br>
+                        title={Distributed Programming Abstraction for Scalable Processing of Temporal Graphs}, <br>
+                        author={Gandhi, Swapnil}, <br>
+                        year={2020}, <br>
+                        school={Indian Institute of Science Bangalore},}
+                    </p>
+                </div>
+            </p>
           </li>
         </ul>
 
