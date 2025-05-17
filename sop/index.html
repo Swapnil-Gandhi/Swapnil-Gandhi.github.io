@@ -105,25 +105,59 @@
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <div class="container-fluid p-0">
-    <section class="p-3 p-lg-5 d-flex align-items-center" id="" style="max-width:500rem">
-        <h3>Statement of Purpose</h3>
-    
-        <div class="w-100">
-              <p class="lead mb-5"">
-                In the spirit of paying it forward, I’m sharing my Statement of Purpose (CS/Systems PhD SoP) long with the accompanying <a href="https://github.com/Swapnil-Gandhi/SoP-Template">LaTeX Template</a>. Reading others' statements greatly helped me during my application process—I hope mine can similarly support you! <br><br>
-      
-                <div style="display: flex; justify-content: center; align-items: center;">
-                  <object data="https://swapnilgandhi.com/sop/swapnil-sop.pdf" type="application/pdf" width="750px" height="750px">
-                    <embed src="https://swapnilgandhi.com/sop/swapnil-sop.pdf" type="application/pdf">
-                      <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://swapnilgandhi.com/sop/swapnil-sop.pdf">Download PDF</a>.</p>
-                    </embed>
-                  </object>
-                </div>
-              </p>
-        </div>
-    </section>
-  </div>
+  <section class="p-3 p-lg-5" style="max-width: 900px; margin: auto;">
+    <h2 class="text-center mb-4">Statement of Purpose</h2>
+    <p class="lead text-center mb-4">
+      In the spirit of paying it forward, I’m sharing my <strong>Statement of Purpose</strong> for a CS/Systems PhD along with the accompanying 
+      <a class="highlight-link" href="https://github.com/Swapnil-Gandhi/SoP-Template">LaTeX Template</a>. 
+      Reading others’ statements greatly helped me during my application process—I hope mine can similarly support you!
+    </p>
+  
+    <div class="pdf-container">
+      <iframe src="https://swapnilgandhi.com/sop/swapnil-sop.pdf" type="application/pdf"></iframe>
+      <p class="pdf-fallback">
+        If your browser doesn't support PDFs, please 
+        <a href="https://swapnilgandhi.com/sop/swapnil-sop.pdf">download the PDF</a>.
+      </p>
+    </div>
+  </section>
+  
+  <style>
+    .pdf-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      overflow: hidden;
+    }
+  
+    .pdf-container iframe {
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 100%;
+      height: 800px;
+      max-width: 1000px;
+    }
+  
+    .highlight-link {
+      color: #bd5d38;
+      text-decoration: none;
+      border-bottom: 1px dashed #bd5d38;
+    }
+  
+    .highlight-link:hover {
+      color: #8c452a;
+      border-bottom-style: solid;
+    }
+  
+    .pdf-fallback {
+      text-align: center;
+      margin-top: 1rem;
+      color: #6c757d;
+    }
+  </style>
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="../vendor/jquery/jquery.min.js"></script>
